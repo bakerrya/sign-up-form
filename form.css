@@ -9,6 +9,121 @@ body {
     height: 100vh;
 }
 
+form {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+label {
+    margin-bottom: 5px;
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin-left: 50px;
+}
+p {
+    font-family: Garamond, serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+input{
+    border-radius: .25rem;
+    border-width: .05rem;
+    border-color: #E5E7EB;
+    margin: 2%;
+    margin-bottom: 10%;
+    margin-left: 50px;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    height: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+}
+
+input:focus {
+    box-shadow: 3px 3px 5px 1px rgba(189,189,189,1);
+    outline: 1px solid blue;
+}
+
+#password:invalid {
+    border-color: red;
+}
+
+button {
+    margin-top: 30px;
+    padding: 15px 50px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    background-color: #596D48;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px 1px rgba(189,189,189,1);
+    margin-bottom: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: 0.2s background-color;
+}
+
+.intro1{
+    margin-left: 50px;
+    margin-right: 55px;
+    font-size: 24px;
+    font-weight: bold;
+    width: 77%;
+}
+
+.intro2 {
+    margin-left: 50px;
+    margin-right: 55px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.login-message{
+    margin-left: 50px;
+    margin-right: 55px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.form-inner-panel {
+    width: 100%;
+    box-shadow: 3px 3px 5px  rgba(189,189,189,1);
+}
+
+.form-panel{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form-group{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 5%;
+}
+
+
+.sign-up-container{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 10%;
+    width: 65%;
+}
+
+
 .logo-text {
     font-family: 'Norse';
     font-size: 8rem;
@@ -25,7 +140,7 @@ body {
     background-size: cover;
     display: flex;
     position: relative;
-    width: 40%;
+    width: 35%;
 }
 
 .image-label {
